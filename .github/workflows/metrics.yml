@@ -2,7 +2,7 @@ name: GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # Midnight PHT (UTC+8)
+    - cron: "0 * * * *"  # Runs every hour PHT (UTC+8)
   workflow_dispatch:
   push:
     branches: ["main"]
